@@ -1,0 +1,15 @@
+
+/*
+methods interface olabilir. patientunit ve doctorunir implement olabilir. ikisinin ortak methodlari
+buradan kullanilabilir.
+ */
+
+/*
+doctorPatient enum olsa
+doktor title ve hastalis cesitleri burada olsa
+
+ */
+
+ /* addDoctor() ile addPatient() overriding yapılabilir.
+ */
+
