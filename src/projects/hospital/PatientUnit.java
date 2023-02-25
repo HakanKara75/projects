@@ -1,9 +1,9 @@
-package main.batch_129.projects.hospital;
+package projects.hospital;
 
 import java.util.*;
 
-import static main.batch_129.projects.hospital.Deneme.integerGirisiHataEngelleme;
-import static main.batch_129.projects.hospital.DoctorUnit.doctorList;
+import static projects.hospital.Deneme.integerGirisiHataEngelleme;
+import static projects.hospital.DoctorUnit.doctorList;
 
 public class PatientUnit extends PatientAndDoctor{
     List<Patient> patientList = new ArrayList<>();

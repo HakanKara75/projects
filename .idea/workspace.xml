@@ -1,14 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e85461-df56-4584-962e-6ccddd7b5349" name="Changes" comment="" />
+    <list default="true" id="69e85461-df56-4584-962e-6ccddd7b5349" name="Changes" comment="tamam">
+      <change afterPath="$PROJECT_DIR$/src/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/bakkal/Bakkal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/bakkal/Depo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/bakkal/Islemler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/bakkal/Urunler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/depo/Depo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/depo/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/depo/UrunBilgi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Bilet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Bilet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/MiniiBookStore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/MiniiBookStore/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/MiniiBookStore/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/MiniiBookStore/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/MiniiBookStore/MiniBookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/MiniiBookStore/MiniBookStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/MiniiBookStore/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/MiniiBookStore/NoteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/MiniiBookStore/NoteBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/MiniiBookStore/NoteBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/MiniiBookStore/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/MiniiBookStore/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/MiniiBookStore/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/MiniiBookStore/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/appointmentApp/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/appointmentApp/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/appointmentApp/AppointmentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/appointmentApp/AppointmentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/appointmentApp/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/appointmentApp/AppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/arac_kiralama/Araba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/arac_kiralama/Araba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/arac_kiralama/MusteriveAracBilgileri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/arac_kiralama/MusteriveAracBilgileri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/arac_kiralama/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/arac_kiralama/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/arac_kiralama/SehirSec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/arac_kiralama/SehirSec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/arac_kiralama/Tarih.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/arac_kiralama/Tarih.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/aracsigorta/Arac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/aracsigorta/Arac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/aracsigorta/AracSigortaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/aracsigorta/AracSigortaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/bilet_rezervasyon/Bilet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/bilet_rezervasyon/Bilet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/bilet_rezervasyon/BiletRezervasyon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/bilet_rezervasyon/BiletRezervasyon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/bilet_rezervasyon/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/bilet_rezervasyon/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/coffee_machine/CoffeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/coffee_machine/CoffeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/DataBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/DataBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/Deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/Deneme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/DoctorUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/DoctorUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/HospitalRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/HospitalRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/HospitalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/HospitalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/PatientAndDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/PatientAndDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/PatientUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/PatientUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/hospital/doktorPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/hospital/doktorPatient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/icecek_otomati/IcecekOtomati.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/icecek_otomati/IcecekOtomati.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/loginpage_app/LoginpageApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loginpage_app/LoginpageApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/loginpage_app/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loginpage_app/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/loginpage_app/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/loginpage_app/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/aracsigorta/Arac.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/aracsigorta/AracSigortaApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/DataBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/Deneme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/DoctorUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/Hospital.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/HospitalRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/HospitalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/PatientAndDoctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/PatientUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projects/hospital/doktorPatient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/RestaurantBillGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/restaurant_bill_generator/RestaurantBillGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/siteye_uye_olma/LoginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/siteye_uye_olma/LoginMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/siteye_uye_olma/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/siteye_uye_olma/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/siteye_uye_olma/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/siteye_uye_olma/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/yiyecekotomati/K.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/yiyecekotomati/K.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/yiyecekotomati/L.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/yiyecekotomati/L.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/yiyecekotomati/M.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/yiyecekotomati/M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/yiyecekotomati/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/yiyecekotomati/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/yiyecekotomati/YiyecekOtomati.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/yiyecekotomati/YiyecekOtomati.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2L9IXtVUFADs6glw9hMVtnTh5BX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,9 +112,89 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/HakanBatirhan/IdeaProjects/methods"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HakanBatirhan\IdeaProjects\projects\src\projects" />
+      <recent name="C:\Users\Hakan Batırhan\IdeaProjects\projects\src\projects" />
+      <recent name="C:\Users\Hakan Batırhan\IdeaProjects\projects\src\projects\projects\hospital" />
+      <recent name="C:\Users\Hakan Batırhan\IdeaProjects\projects\src\projects\projects\aracsigorta" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hakan Batırhan\IdeaProjects\projects\src\projects\projects\arac_kiralama" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="projects.projects.hospital" />
+      <recent name="projects.projects.arac_kiralama" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.B">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
+      <module name="projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppointmentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projects.appointmentApp.AppointmentApp" />
+      <module name="projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projects.appointmentApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B" />
+      <module name="projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginpageApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projects.loginpage_app.LoginpageApp" />
+      <module name="projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projects.loginpage_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projects.depo.Runner" />
+      <module name="projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projects.depo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.LoginpageApp" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.AppointmentApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +205,20 @@
       <updated>1675276919267</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tamam" />
+    <option name="LAST_COMMIT_MESSAGE" value="tamam" />
   </component>
 </project>

@@ -1,9 +1,9 @@
-package main.batch_129.projects.arac_kiralama;
+package projects.arac_kiralama;
 
 
-import java.io.FileNotFoundException;
-import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 public class MusteriveAracBilgileri {
     /*
     Araba Kiralama Projesi TASK   ***********

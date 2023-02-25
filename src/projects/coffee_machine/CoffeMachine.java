@@ -1,4 +1,4 @@
-package main.batch_129.projects.coffee_machine;
+package projects.coffee_machine;
 
 import java.util.Scanner;
 

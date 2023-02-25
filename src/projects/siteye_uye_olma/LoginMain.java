@@ -1,4 +1,4 @@
-package main.batch_129.projects.siteye_uye_olma;
+package projects.siteye_uye_olma;
 
 import java.util.Scanner;
 

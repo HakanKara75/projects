@@ -1,4 +1,4 @@
-package main.batch_129.projects.hospital;
+package projects.hospital;
 /*doktor title ve hastalis cesitleri burada olsa
 
  */

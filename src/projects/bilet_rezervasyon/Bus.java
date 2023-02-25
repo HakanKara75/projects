@@ -1,4 +1,4 @@
-package main.batch_129.projects.bilet_rezervasyon;
+package projects.bilet_rezervasyon;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.batch_129.projects.bilet_rezervasyon;
+package projects.bilet_rezervasyon;
 
 import java.util.Scanner;
 
@@ -27,9 +27,14 @@ Bus bus=new Bus("34 ASD 78"); //obje cagirilinca koltuk numaralari da gelecek.
 
 //4.adim. Bilet objesi olusturalim.
 Bilet bilet=new Bilet();
+
+
+start(bus,bilet);
     }
-public static void start(Bus bus){ //Bus class tan obje olusturup kullanmak icin. ordaki verileri kullanacagiz.
+public static void start(Bus bus, Bilet bilet){ //Bus class tan obje olusturup kullanmak icin. ordaki verileri kullanacagiz.
+        // Bilet class tan da bilet tutarini hesapladigimiz bilgileri aldik.
     Scanner scan=new Scanner(System.in);
+    int select;
     do {
         //6.adimda kullanicidan bilgileri alacagiz
         System.out.println("Bilet Rezervasyon Uygulamasina Hosgeldiniz...");
@@ -49,22 +54,68 @@ public static void start(Bus bus){ //Bus class tan obje olusturup kullanmak icin
         System.out.println(bus.seats);  //Bus bus ile cagirdik
         int seat=scan.nextInt();
 
-        //7- secilen koltugu listeden kaldiralim
-        bus.seats.remove(String.valueOf(seat));     //koltuk no string oldugu icin int seat i value of ile string yaptim.
-
+        boolean isReserved=!bus.seats.contains(String.valueOf(seat));
+        if (isReserved){
+            System.out.println("Lutfen listede aktif olan bir koltuk seciniz");
+            select=0;
+        }else {
+            //7- secilen koltugu listeden kaldiralim
+            bus.seats.remove(String.valueOf(seat));     //koltuk no string oldugu icin int seat i value of ile string yaptim.
+        }
 //8-kullanicidan alinan degerler gecerli mi
         boolean check=type==1|| type==2;
         if (distance>0 &&age>0 && check){
             //9- bilet fiyati hesaplayalim
+
+            bilet.distance=distance;
+            bilet.typeNo=type;
+            bilet.seatNo=seat;
+            bilet.price=getTotal(bilet, age); // bilet ucretini set etmek icin
+            System.out.println("---------------------------------------");
+            bilet.printBilet(bus); //bileti yazdirmak icin
         }else {
             System.out.println("Hatali giris yaptiniz !!!");
         }
+        System.out.println("Yeni islem icin 1 cikis icin 0 giriniz");
+        select= scan.nextInt();
 
-
-    }while (1>0);
-
+    }while (select !=0);
+    System.out.println("Iyi gunler dileriz");
 }
+    private static double getTotal(Bilet bilet, int age) {
+        double dist = bilet.distance;
+        int type = bilet.typeNo;
+        int seat = bilet.seatNo;
+        double total = 0;
+        switch (type) {
+            case 1:
+                if (seat % 3 == 0) {
+                    total = dist * 1.2;
+                } else {
+                    total = dist * 1;
+                }
+                break;
+            case 2:
+                if (seat % 3 == 0) {
+                    total = dist * 2.4;
+                } else {
+                    total = dist * 2;
+                }
+                total = total * 0.8;
+                break;
+        }
+        if (age <=12) {
+            total = total * 0.5;
+        } else if (age > 12 && age < 24) {
+            total = total * 0.9;
+        } else if (age > 65) {
+            total = total * 0.7;
 
-
+        }return total;
+    }
 
 }//class
+
+/* alinan biletin tekrar alinmasi
+koltuk sayisi koltuk satisina engel
+ */

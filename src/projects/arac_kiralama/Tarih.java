@@ -1,5 +1,7 @@
-package main.batch_129.projects.arac_kiralama;
-import java.text.*;
+package projects.arac_kiralama;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 public class Tarih {
@@ -14,8 +16,8 @@ public class Tarih {
         String teslimTarihi = input.nextLine();
 
         Date alisTarihiTrh= trh.parse(alisTarihi);
-        Date teslimTarihiTrh = trh.parse(teslimTarihi);
 
+        Date teslimTarihiTrh = trh.parse(teslimTarihi);
         long gunHesabi = teslimTarihiTrh.getTime() - alisTarihiTrh.getTime();
         toplamGun = (int)(gunHesabi / (1000 * 60 * 60 * 24));
     }

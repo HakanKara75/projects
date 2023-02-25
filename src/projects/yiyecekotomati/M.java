@@ -1,4 +1,4 @@
-package main.batch_129.projects.yiyecekotomati;
+package projects.yiyecekotomati;
 
 import java.util.TreeSet;
 

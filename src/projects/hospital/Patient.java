@@ -1,4 +1,4 @@
-package main.batch_129.projects.hospital;
+package projects.hospital;
 
 public class Patient extends DataBank{
     private String name;

@@ -1,4 +1,4 @@
-package main.batch_129.projects.hospital;
+package projects.hospital;
 
 import java.util.ArrayList;
 import java.util.List;

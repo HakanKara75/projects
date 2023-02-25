@@ -1,4 +1,4 @@
-package projects.biletbas;
+package projects;
 
 import java.util.Scanner;
 /*

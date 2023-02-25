@@ -1,4 +1,4 @@
-package main.batch_129.projects.bilet_rezervasyon;
+package projects.bilet_rezervasyon;
 
 public class Bilet {
     //mesafe, yolculuk tipi, bilet fiyati, koltuk no

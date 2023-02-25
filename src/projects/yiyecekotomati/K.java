@@ -1,4 +1,4 @@
-package main.batch_129.projects.yiyecekotomati;
+package projects.yiyecekotomati;
 
 public interface K {
     String a = "Awesome";

@@ -1,4 +1,4 @@
-package main.batch_129.projects.icecek_otomati;
+package projects.icecek_otomati;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package main.batch_129.projects.arac_kiralama;
+package projects.arac_kiralama;
 
 import java.text.ParseException;
 

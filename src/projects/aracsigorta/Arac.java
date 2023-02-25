@@ -1,4 +1,4 @@
-package main.batch_129.projects.aracsigorta;
+package projects.aracsigorta;
 
 import java.util.Scanner;
 
